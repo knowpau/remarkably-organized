@@ -5,11 +5,11 @@
 <main>
 	<section>
 		<h1>
-			<small>Remarkably Organized</small>
+			<small>Pen'd.</small>
 			Planner
 		</h1>
 		<p>
-			Create a custom planner & organizer for the e-ink tablets like the Remarkable 2.
+			Build a custom planner & organizer for the Remarkable 2.
 		</p>
 		<a href="/planner{page.url.search}">Start Creating</a>
 	</section>
@@ -30,26 +30,18 @@
 		flex-wrap: wrap;
 		background-image: linear-gradient(
 			180deg,
-			hsl(227deg 87% 9%) 0%,
-			hsl(217deg 83% 16%) 29%,
-			hsl(208deg 80% 24%) 46%,
-			hsl(197deg 76% 31%) 60%,
-			hsl(188deg 72% 38%) 74%,
-			hsl(178deg 68% 45%) 87%,
-			hsl(168deg 64% 52%) 100%
+			hsl(220deg 15% 18%) 0%,
+			hsl(215deg 18% 26%) 40%,
+			hsl(210deg 20% 34%) 70%,
+			hsl(205deg 18% 42%) 100%
 		);
-		@include desktop {
-			background-image: linear-gradient(
-				60deg,
-				hsl(227deg 87% 9%) 0%,
-				hsl(217deg 83% 16%) 29%,
-				hsl(208deg 80% 24%) 46%,
-				hsl(197deg 76% 31%) 60%,
-				hsl(188deg 72% 38%) 74%,
-				hsl(178deg 68% 45%) 87%,
-				hsl(168deg 64% 52%) 100%
-			); // https://www.joshwcomeau.com/gradient-generator?colors=030c2c|37d3b4&angle=180&colorMode=hsl&precision=5&easingCurve=0.2413793103448276|1.0002020474137931|0.6853448275862069|0.40106411637931033
-		}
+		background-image: linear-gradient(
+    		60deg,
+    		hsl(220deg 15% 18%) 0%,
+		    hsl(215deg 18% 26%) 40%,
+		    hsl(210deg 20% 34%) 70%,
+		    hsl(205deg 18% 42%) 100%
+);
 	}
 	section {
 		display: flex;
