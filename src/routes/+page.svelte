@@ -11,7 +11,7 @@
 		<p>
 			Build a custom planner & organizer for the Remarkable 2.
 		</p>
-		<a href="/planner{page.url.search}">Start Creating</a>
+		<a href="/planner{page.url.search}">Build My Planner</a>
 	</section>
 	<section>
 		<img
